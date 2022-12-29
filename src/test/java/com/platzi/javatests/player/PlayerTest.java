@@ -15,7 +15,6 @@ public class PlayerTest {
         Dice dice = Mockito.mock(Dice.class);
         Mockito.when(dice.roll()).thenReturn(2);
 
-
         Player player = new Player(dice,2);
         assertFalse(player.play());
 
