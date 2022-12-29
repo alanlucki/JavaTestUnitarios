@@ -9,7 +9,7 @@ public class Player {
         this.minNumberToWin = minNumberToWin;
     }
 
-    public boolean play(){
+    public boolean play() {
         int diceNumber = dice.roll();
         return diceNumber > minNumberToWin;
     }
