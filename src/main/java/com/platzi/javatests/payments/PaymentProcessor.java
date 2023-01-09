@@ -2,11 +2,11 @@ package com.platzi.javatests.payments;
 
 public class PaymentProcessor {
 
+    private PaymentGateway paymentGateway;
+
     public PaymentProcessor(PaymentGateway paymentGateway) {
         this.paymentGateway = paymentGateway;
     }
-
-    private PaymentGateway paymentGateway;
 
     public boolean makePayment(double amount) {
 

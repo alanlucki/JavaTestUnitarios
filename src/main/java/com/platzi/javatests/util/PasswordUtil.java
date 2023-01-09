@@ -2,12 +2,6 @@ package com.platzi.javatests.util;
 
 public class PasswordUtil {
 
-    public enum SecurityLevel {
-        WEAK,
-        MEDIUM,
-        STRONG
-    }
-
     public static SecurityLevel assessPassword(String password) {
 
         if (password.length() < 8)
@@ -17,6 +11,12 @@ public class PasswordUtil {
         if (password.matches("[a-zA-Z0-9]+"))
             return SecurityLevel.MEDIUM;
         return SecurityLevel.STRONG;
+    }
+
+    public enum SecurityLevel {
+        WEAK,
+        MEDIUM,
+        STRONG
     }
 
 }
