@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="576d4454-7c76-438a-ac18-271d183f19c7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/payments/PaymentProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/payments/PaymentProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/payments/PaymentRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/payments/PaymentRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/payments/PaymentResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/payments/PaymentResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/util/PasswordUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/util/PasswordUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/util/DateUtilLeapYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/util/DateUtilLeapYearShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -44,19 +42,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.platzi.javatests.payments" />
@@ -71,8 +69,38 @@
       <recent name="com.platzi.javatests.player" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringUtilTest">
-    <configuration name="PaymentProcessorTest.payment_is_wrong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DateUtilLeapYearShould">
+    <configuration name="DateUtilLeapYearShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestUnitarios-sesion01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platzi.javatests.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platzi.javatests.util" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.util.DateUtilLeapYearShould" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestUnitarios-sesion01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platzi.javatests.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platzi.javatests.util" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.util.PasswordUtilTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestUnitarios-sesion01" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +110,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.platzi.javatests.payments" />
       <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.payments.PaymentProcessorTest" />
-      <option name="METHOD_NAME" value="payment_is_wrong" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestUnitarios-sesion01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platzi.javatests.player.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platzi.javatests.player" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.player.PlayerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,61 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringUtilTest.string_espacios_en_blanco_es_vacio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestUnitarios-sesion01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.platzi.javatests.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.platzi.javatests.util" />
-      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.util.StringUtilTest" />
-      <option name="METHOD_NAME" value="string_espacios_en_blanco_es_vacio" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringUtilTest.string_null_es_vacio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestUnitarios-sesion01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.platzi.javatests.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.platzi.javatests.util" />
-      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.util.StringUtilTest" />
-      <option name="METHOD_NAME" value="string_null_es_vacio" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringUtilTest.string_vacio_es_vacio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestUnitarios-sesion01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.platzi.javatests.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.platzi.javatests.util" />
-      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.util.StringUtilTest" />
-      <option name="METHOD_NAME" value="string_vacio_es_vacio" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DateUtilLeapYearShould" />
+        <item itemvalue="JUnit.PaymentProcessorTest" />
+        <item itemvalue="JUnit.PlayerTest" />
         <item itemvalue="JUnit.StringUtilTest" />
-        <item itemvalue="JUnit.StringUtilTest.string_espacios_en_blanco_es_vacio" />
-        <item itemvalue="JUnit.PaymentProcessorTest.payment_is_wrong" />
-        <item itemvalue="JUnit.StringUtilTest.string_null_es_vacio" />
-        <item itemvalue="JUnit.StringUtilTest.string_vacio_es_vacio" />
+        <item itemvalue="JUnit.PasswordUtilTest" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +164,21 @@
       <option name="presentableId" value="Default" />
       <updated>1671836663305</updated>
     </task>
+    <task id="LOCAL-00001" summary="Rearrange entries">
+      <created>1673239584808</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673239584808</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Rearrange entries">
+      <created>1673239672411</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673239672411</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,16 +192,9 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/platzi/javatests/player/PlayerTest.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Rearrange entries" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rearrange entries" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
@@ -205,16 +207,19 @@
     <SUITE FILE_PATH="coverage/TestUnitarios_sesion01$StringUtilTest_string_cualquiera_no_vacio.ic" NAME="StringUtilTest.string_cualquiera_no_vacio Coverage Results" MODIFIED="1672293357418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.platzi.javatests.util.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/TestUnitarios_sesion01$PasswordUtilTest.ic" NAME="PasswordUtilTest Coverage Results" MODIFIED="1672203533522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/TestUnitarios_sesion01$PasswordUtilTest.ic" NAME="PasswordUtilTest Coverage Results" MODIFIED="1673239793302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.platzi.javatests.util.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/TestUnitarios_sesion01$PlayerTest.ic" NAME="PlayerTest Coverage Results" MODIFIED="1672205991235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/TestUnitarios_sesion01$PlayerTest.ic" NAME="PlayerTest Coverage Results" MODIFIED="1673239851015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.platzi.javatests.player.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/TestUnitarios_sesion01$PaymentProcessorTest.ic" NAME="PaymentProcessorTest Coverage Results" MODIFIED="1672292658713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/TestUnitarios_sesion01$PaymentProcessorTest.ic" NAME="PaymentProcessorTest Coverage Results" MODIFIED="1673239869617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.platzi.javatests.payments.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/TestUnitarios_sesion01$StringUtilTest.ic" NAME="StringUtilTest Coverage Results" MODIFIED="1673239164919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/TestUnitarios_sesion01$DateUtilLeapYearShould.ic" NAME="DateUtilLeapYearShould Coverage Results" MODIFIED="1673481085464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.platzi.javatests.util.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TestUnitarios_sesion01$StringUtilTest.ic" NAME="StringUtilTest Coverage Results" MODIFIED="1673239826703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.platzi.javatests.util.*</FILTER>
     </SUITE>
   </component>
