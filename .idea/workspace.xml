@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="576d4454-7c76-438a-ac18-271d183f19c7" name="Changes" comment="Rearrange entries">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/casopractico/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/casopractico/NumeroRomanos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/discounts/PriceCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/casopractico/FizzBuzzTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/casopractico/NumeroRomanosTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/discounts/PriceCalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test02/Factorial.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -35,13 +29,6 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="2JKpWeQcTQ1e4LFXwLHo5GWrjpG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -56,6 +43,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "last_opened_file_path": "/home/alan/Documents/GitHub/JavaTestUnitarios",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -78,22 +66,7 @@
       <recent name="com.platzi.javatests.player" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NumeroRomanosTest">
-    <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestUnitarios-sesion01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.platzi.javatests.casopractico.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.platzi.javatests.casopractico" />
-      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.casopractico.FizzBuzzTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PADQCZ01Test01">
     <configuration name="NumeroRomanosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestUnitarios-sesion01" />
       <extension name="coverage">
@@ -157,13 +130,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PADQCZ01Test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestUnitarios-sesion01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test01" />
+      <option name="MAIN_CLASS_NAME" value="test01.PADQCZ01Test01" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PADQCZ01Test01" />
         <item itemvalue="JUnit.NumeroRomanosTest" />
         <item itemvalue="JUnit.NumeroRomanosTest.test_minor_100" />
         <item itemvalue="JUnit.NumeroRomanosTest.test_minor_10" />
         <item itemvalue="JUnit.NumeroRomanosTest.cadena_vacia_si_numero_es_zero" />
-        <item itemvalue="JUnit.FizzBuzzTest" />
       </list>
     </recent_temporary>
   </component>
@@ -213,19 +201,31 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TestUnitarios_sesion01$PriceCalculatorTest.ic" NAME="PriceCalculatorTest Coverage Results" MODIFIED="1673484794541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.platzi.javatests.discounts.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/TestUnitarios_sesion01$FizzBuzzTest.ic" NAME="FizzBuzzTest Coverage Results" MODIFIED="1673485543788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.platzi.javatests.casopractico.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/TestUnitarios_sesion01$PasswordUtilTest_weak_when_has_less_than_8_letters.ic" NAME="PasswordUtilTest.weak_when_has_less_than_8_letters Coverage Results" MODIFIED="1672203422314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.platzi.javatests.util.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/TestUnitarios_sesion01$StringUtilTest_string_cualquiera_no_vacio.ic" NAME="StringUtilTest.string_cualquiera_no_vacio Coverage Results" MODIFIED="1672293357418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.platzi.javatests.util.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/TestUnitarios_sesion01$PriceCalculatorTest_total_is_sum_of_prices.ic" NAME="PriceCalculatorTest.total_is_sum_of_prices Coverage Results" MODIFIED="1673483693032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.platzi.javatests.discounts.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TestUnitarios_sesion01$NumeroRomanosTest.ic" NAME="NumeroRomanosTest Coverage Results" MODIFIED="1673488826481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.platzi.javatests.casopractico.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TestUnitarios_sesion01$PriceCalculatorTest.ic" NAME="PriceCalculatorTest Coverage Results" MODIFIED="1673484794541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.platzi.javatests.discounts.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TestUnitarios_sesion01$StringUtilTest.ic" NAME="StringUtilTest Coverage Results" MODIFIED="1673239826703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.platzi.javatests.util.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TestUnitarios_sesion01$PasswordUtilTest_weak_when_has_less_than_8_letters.ic" NAME="PasswordUtilTest.weak_when_has_less_than_8_letters Coverage Results" MODIFIED="1672203422314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.platzi.javatests.util.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/TestUnitarios_sesion01$PasswordUtilTest.ic" NAME="PasswordUtilTest Coverage Results" MODIFIED="1673239793302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.platzi.javatests.util.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TestUnitarios_sesion01$DateUtilLeapYearShould.ic" NAME="DateUtilLeapYearShould Coverage Results" MODIFIED="1673481285488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.platzi.javatests.util.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/TestUnitarios_sesion01$PlayerTest.ic" NAME="PlayerTest Coverage Results" MODIFIED="1673239851015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -233,18 +233,6 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/TestUnitarios_sesion01$PaymentProcessorTest.ic" NAME="PaymentProcessorTest Coverage Results" MODIFIED="1673239869617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.platzi.javatests.payments.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/TestUnitarios_sesion01$PriceCalculatorTest_total_is_sum_of_prices.ic" NAME="PriceCalculatorTest.total_is_sum_of_prices Coverage Results" MODIFIED="1673483693032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.platzi.javatests.discounts.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/TestUnitarios_sesion01$DateUtilLeapYearShould.ic" NAME="DateUtilLeapYearShould Coverage Results" MODIFIED="1673481285488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.platzi.javatests.util.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/TestUnitarios_sesion01$StringUtilTest.ic" NAME="StringUtilTest Coverage Results" MODIFIED="1673239826703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.platzi.javatests.util.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/TestUnitarios_sesion01$NumeroRomanosTest.ic" NAME="NumeroRomanosTest Coverage Results" MODIFIED="1673488826481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.platzi.javatests.casopractico.*</FILTER>
     </SUITE>
   </component>
 </project>
